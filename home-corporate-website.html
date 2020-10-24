@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>ЦКБ Плазма | Інженерія | IT Системи
+    </title>
+    <!-- SEO Meta Tags-->
+    <meta name="description" content="ЦКБ Плазма">
+    <meta name="keywords"
+        content="multipurpose, portfolio, blog, shop, e-commerce, modern, flat style, responsive,  business, corporate, mobile, bootstrap 4, html5, css3, jquery, js, gallery, slider, touch, creative, clean">
+    <meta name="author" content="ЦКБ Плазма">
+    <!-- Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon and Touch Icons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="plasma-favicon.png">
+    <!--<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">-->
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" color="#343b43" href="safari-pinned-tab.svg">
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Vendor Styles including: Font Icons, Plugins, etc.-->
+    <link rel="stylesheet" media="screen" href="css/vendor.min.css">
+    <!-- Main Theme Styles + Bootstrap-->
+    <link rel="stylesheet" media="screen" href="css/theme.min.css">
+    <!-- Modernizr-->
+    <script src="js/modernizr.min.js"></script>
+</head>
+<!-- Body-->
+
+<body>
+    <!-- Off-Canvas Menu-->
+    <div class="offcanvas-container is-triggered offcanvas-container-reverse" id="mobile-menu"><span
+            class="offcanvas-close"><i class="fe-icon-x"></i></span>
+        <div class="px-4 pb-4">
+            <h6>Меню</h6>
+            <div class="d-flex justify-content-between pt-2">
+                <div class="btn-group w-100 mr-2">
+                    <a class="btn btn-secondary btn-sm btn-block dropdown-toggle" href="home-corporate-website.html#"
+                        data-toggle="dropdown"><img src="img/flags/ua.png" alt="Українська" />Україна</a>
+                    <div class="dropdown-menu" style="min-width: 150px;">
+                        <a class="dropdown-item" href="home-corporate-website.html#"><img src="img/flags/en.png"
+                                alt="English" />English</a>
+                    </div>
+                </div><a class="btn btn-primary btn-sm btn-block" href="account-login.html"><i
+                        class="fe-icon-user"></i>&nbsp;Увійти</a>
+            </div>
+        </div>
+        <div class="offcanvas-scrollable-area border-top" style="height:calc(100% - 235px); top: 144px;">
+            <!-- Mobile Menu-->
+            <div class="accordion mobile-menu" id="accordion-menu">
+                <!-- Home-->
+                <div class="card">
+                    <div class="card-header"><a class="mobile-menu-link active"
+                            href="home-corporate-website.html">Головна</a></div>
+                </div>
+                <!-- Projects-->
+                <div class="card">
+                    <div class="card-header"><a class="mobile-menu-link" href="projects.html">Проекти</a></div>
+                </div>
+                <!-- Contacts-->
+                <div class="card">
+                    <div class="card-header"><a class="mobile-menu-link" href="contacts.html">Контакти</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas-footer px-4 pt-3 pb-2 text-center">
+            <a class="social-btn sb-style-3 sb-viber" title="Viber" href="viber://chat?number=380675070210"><i
+                    class="socicon-viber"></i></a>
+            <a class="social-btn sb-style-3 sb-whatsapp" title="Whatsapp" href="whatsapp://send?phone=380675070210"><i
+                    class="socicon-whatsapp"></i></a>
+        </div>
+    </div>
+    <!-- Navbar: Simple Ghost-->
+    <header class="navbar-wrapper navbar-boxed navbar-simple-ghost">
+        <div class="container-fluid">
+            <div class="d-table-cell align-middle pr-md-3">
+                <a class="navbar-brand mr-1" href="home-corporate-website.html"><img
+                        src="img/logo/plasma-logo-light.png" alt="ЦКБ Плазма" /></a>
+            </div>
+            <div class="d-table-cell w-100 align-middle pl-md-3">
+                <div class="navbar justify-content-end justify-content-lg-between">
+                    <!-- Main Menu-->
+                    <ul class="navbar-nav d-none d-lg-block">
+                        <!-- Home-->
+                        <li class="nav-item mega-dropdown-toggle active"><a class="nav-link"
+                                href="home-corporate-website.html">Головна</a>
+                        </li>
+                        <!-- Components-->
+                        <li class="nav-item"><a class="nav-link" href="projects.html">Проекти</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacts.html">Контакти</a></li>
+                    </ul>
+                    <div>
+                        <ul class="navbar-buttons d-inline-block align-middle mr-lg-2">
+                            <li class="d-block d-lg-none"><a href="#mobile-menu" data-toggle="offcanvas"><i
+                                        class="fe-icon-menu"></i></a></li>
+                        </ul><a class="btn btn-gradient ml-3 d-none d-xl-inline-block" href="#modalCentered"
+                            data-toggle="modal">Зв'язатися</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Page Content-->
+    <!-- Hero Slider-->
+    <section class="owl-carousel dots-inside controls-hidden-mobile"
+        data-owl-carousel="{ &quot;nav&quot;: true, &quot;dots&quot;: true, &quot;loop&quot;: true, &quot;autoplay&quot;: true, &quot;autoplayTimeout&quot;: 13000 }">
+        <div class="bg-cover bg-center bg-no-repeat py-5"
+            style="background-image: url(img/homepages/corporate-website/gns-plasmainua.webp);"><span
+                class="bg-overlay"></span>
+            <div class="container bg-content py-md-5">
+                <div class="row justify-content-center py-md-5">
+                    <div class="col-12 text-center py-md-5">
+                        <div class="d-table w-100 bg-no-repeat bg-center"
+                            style="min-height: 448px; background-size: 452px 448px; background-image: url(img/homepages/corporate-website/hero-slide-shape01.png);">
+                            <div class="d-table-cell align-middle">
+                                <h2 class="display-4 text-white"><em class='font-weight-light'>Сучасна</em> Інженерія
+                                </h2>
+                                <p class="text-xl text-white opacity-75 pb-4">Проекти, дозволи, зведення, запуск,
+                                    техпідтримка</p><a class="btn btn-style-4 btn-light"
+                                    href="home-corporate-website.html#">Детальніше</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-cover bg-center bg-no-repeat py-5"
+            style="background-image: url(img/homepages/corporate-website/systema-obliku-lpg-gazovoza-plasmainua.webp);">
+            <span class="bg-overlay" style="opacity: .55;"></span>
+            <div class="container bg-content py-md-5">
+                <div class="row justify-content-center py-md-5">
+                    <div class="col-12 text-center py-md-5">
+                        <div class="d-table w-100 bg-no-repeat bg-center"
+                            style="min-height: 448px; background-size: 452px 448px; background-image: url(img/homepages/corporate-website/hero-slide-shape02.png);">
+                            <div class="d-table-cell align-middle">
+                                <h2 class="display-4 text-white"><em class='font-weight-light'>Новітні</em> IT-системи
+                                </h2>
+                                <p class="text-xl text-white opacity-75 pb-4">Складні програмні продукти для
+                                    промисловості</p><a class="btn btn-style-4 btn-light"
+                                    href="home-corporate-website.html#">Детальніше</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Page Title-->
+    <div class="page-title d-flex" aria-label="Page title"
+        style="background-image: url(img/page-title/shop-pattern.jpg);">
+        <div class="container text-left align-self-center">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="home-corporate-website.html">Home</a>
+                    </li>
+                    <li class="breadcrumb-item"><a href="shop-boxed-ls.html">Shop</a>
+                    </li>
+                </ol>
+            </nav>
+            <h1 class="page-title-heading">ЦКБ «Плазма»</h1>
+            <div class="page-title-subheading">ТОВ "ЦКБ "ПЛАЗМА" <strong>40007923</strong>
+            </div>
+        </div>
+    </div>
+    <!-- Services-->
+    <section class="container pt-3">
+        <h2 class="h3 block-title text-center">Що ми робимо<small>Будь що. І краще за всіх &#128522; </small></h2>
+        <div class="row pt-5 mt-30">
+            <div class="col-lg-4 col-sm-6 mb-30 pb-5">
+                <a class="card" href="home-corporate-website.html#">
+                    <div class="box-shadow bg-white rounded-circle mx-auto"
+                        style="width: 90px; height: 90px; margin-top: -45px;"><img class="d-block mx-auto"
+                            src="img/homepages/corporate-website/service-icon01.png" alt="Certification"></div>
+                    <div class="card-body text-center">
+                        <h3 class="card-title pt-1">Складні IT-комплекси</h3>
+                        <p class="card-text text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi ut aliquip.</p><span
+                            class="text-sm text-uppercase font-weight-bold">Learn More&nbsp;<i
+                                class="fe-icon-arrow-right"></i></span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-30 pb-5">
+                <a class="card" href="home-corporate-website.html#">
+                    <div class="box-shadow bg-white rounded-circle mx-auto"
+                        style="width: 90px; height: 90px; margin-top: -45px;"><img class="d-block mx-auto"
+                            src="img/homepages/corporate-website/service-icon02.png" alt="Training"></div>
+                    <div class="card-body text-center">
+                        <h3 class="card-title pt-1">Інженерні споруди</h3>
+                        <p class="card-text text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi ut aliquip.</p><span
+                            class="text-sm text-uppercase font-weight-bold">Learn More&nbsp;<i
+                                class="fe-icon-arrow-right"></i></span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-30 pb-5">
+                <a class="card" href="home-corporate-website.html#">
+                    <div class="box-shadow bg-white rounded-circle mx-auto"
+                        style="width: 90px; height: 90px; margin-top: -45px;"><img class="d-block mx-auto"
+                            src="img/homepages/corporate-website/service-icon03.png" alt="Consulting"></div>
+                    <div class="card-body text-center">
+                        <h3 class="card-title pt-1">Продаж обладнання</h3>
+                        <p class="card-text text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi ut aliquip.</p><span
+                            class="text-sm text-uppercase font-weight-bold">Learn More&nbsp;<i
+                                class="fe-icon-arrow-right"></i></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Services-->
+    <section class="pt-lg-4 pb-5 mb-3">
+        <div class="container">
+            <h3 class="text-center text-lg-left">Всі послуги</h3>
+            <div class="row pt-4">
+                <div class="col-md-6">
+                    <dl class="dl-with-icon">
+                        <dt><i class="fe-icon-check-circle text-success"></i>Master planning &amp; Urban design</dt>
+                        <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio</dd>
+                        <dt><i class="fe-icon-check-circle text-success"></i>Site and building analysis</dt>
+                        <dd>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum</dd>
+                        <dt><i class="fe-icon-check-circle text-success"></i>Contract administration</dt>
+                        <dd>Quis nostrum exercitationem ullam corporis suscipit laboriosam</dd>
+                        <dt><i class="fe-icon-check-circle text-success"></i>Building design</dt>
+                        <dd>Quis nostrum exercitationem ullam corporis suscipit laboriosam</dd>
+                        <dt><i class="fe-icon-check-circle text-success"></i>Demolition planning</dt>
+                        <dd>Itaque earum rerum hic tenetur a sapiente delectus reiciendis volu</dd>
+                        <dt><i class="fe-icon-check-circle text-success"></i>Project management</dt>
+                        <dd>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet</dd>
+                    </dl>
+                </div>
+                <div class="col-md-6">
+                    <dl class="dl-with-icon">
+                        <dt><i class="fe-icon-check-circle text-success"></i>Interior design</dt>
+                        <dd>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet</dd>
+                        <dt><i class="fe-icon-check-circle text-success"></i>Sustainable / lead design</dt>
+                        <dd>Quis nostrum exercitationem ullam corporis suscipit laboriosam</dd>
+                        <dt><i class="fe-icon-check-circle text-success"></i>Construction documents</dt>
+                        <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio</dd>
+                        <dt><i class="fe-icon-check-circle text-success"></i>Historic preservation</dt>
+                        <dd>Quis nostrum exercitationem ullam corporis suscipit laboriosam</dd>
+                        <dt><i class="fe-icon-check-circle text-success"></i>3D renderings</dt>
+                        <dd>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum</dd>
+                        <dt><i class="fe-icon-check-circle text-success"></i>Consultant coordination</dt>
+                        <dd>Itaque earum rerum hic tenetur a sapiente delectus reiciendis volu</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Product Widgets-->
+    <section class="container pb-4 mb-2">
+        <h2 class="h3 block-title text-center mt-sm-3 mb-5">Продаж обладнання</h2>
+        <!-- Page Content-->
+        <div class="container pb-5 mb-2">
+            <!-- Alert-->
+            <div class="alert alert-info alert-dismissible fade show text-center mb-30"><span class="close"
+                    data-dismiss="alert"></span><i class="fe-icon-award"></i>&nbsp;&nbsp;Доставка здійснюється
+                <strong>«Новою Поштою»</strong></div>
+            <!-- 1 Cart Item 3/4" Endress Hauser 80I15-AFPDAAABBBAA Promass 80 I Flowmeter S/N 71019216000, 2005-->
+            <div class="cart-item d-md-flex justify-content-between"><span class="add-item"><i
+                        class="fe-icon-check"></i></span>
+                <div class="px-3 my-3">
+                    <a class="gallery-item figure-img" href="img/components/gallery/01.jpg" data-fancybox="gallery2"
+                        data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}">
+                        <div class="cart-item-product-thumb"><img src="img/shop/cart/01.jpg" alt="Product"></div>
+                        <div class="cart-item-product-info">
+                            <h4 class="cart-item-product-title">Endress Hauser Promass 80 I</h4>
+                            <span><strong>Size:</strong> 3/4"</span>
+                            <span><strong>Order Code:</strong> 80I15-AFPDAAABBBAA</span>
+                            <span><strong>Serial Number:</strong> 71019216000</span>
+                            <span><strong>Year:</strong> 2005</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Прилад</div><span class="text-xl font-weight-medium">Витратомір</span>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Кількість</div>
+                    <div class="count-input">
+                        <select class="form-control">
+                            <option>1</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Ціна за одиницю</div><span class="text-xl font-weight-medium">$5.088</span>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Ціна за 1 без ПДВ</div><span
+                        class="text-xl font-weight-medium">145.008грнгрн</span>
+                </div>
+            </div>
+            <!-- 2 Cart Item 1" Endress Hauser 80I25-AFTDAAABBBAA Promass 80 I Flowmeter S/N 7101CE16000, 2005 -->
+            <div class="cart-item d-md-flex justify-content-between"><span class="add-item"><i
+                        class="fe-icon-check"></i></span>
+                <div class="px-3 my-3">
+                    <a class="gallery-item figure-img" href="img/components/gallery/01.jpg" data-fancybox="gallery2"
+                        data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}">
+                        <div class="cart-item-product-thumb"><img src="img/shop/cart/01.jpg" alt="Product"></div>
+                        <div class="cart-item-product-info">
+                            <h4 class="cart-item-product-title">Endress Hauser Promass 80 I</h4>
+                            <span><strong>Size:</strong> 1"</span>
+                            <span><strong>Order Code:</strong> 80I25-AFTDAAABBBAA</span>
+                            <span><strong>Serial Number:</strong> 7101CE16000</span>
+                            <span><strong>Year:</strong> 2005</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Прилад</div><span class="text-xl font-weight-medium">Витратомір</span>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Кількість</div>
+                    <div class="count-input">
+                        <select class="form-control">
+                            <option>1</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Ціна за одиницю</div><span
+                        class="text-xl font-weight-medium">$5.400</span>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Ціна за 1 без ПДВ</div><span
+                        class="text-xl font-weight-medium">153.900грн</span>
+                </div>
+            </div>
+            <!-- 3 Cart Item 3/4" Endress Hauser 80I15-AFPDAAABBBAA Promass 80 I Flowmeter S/N 76013916000, 2005 -->
+            <div class="cart-item d-md-flex justify-content-between"><span class="add-item"><i
+                        class="fe-icon-check"></i></span>
+                <div class="px-3 my-3">
+                    <a class="gallery-item figure-img" href="img/components/gallery/01.jpg" data-fancybox="gallery2"
+                        data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}">
+                        <div class="cart-item-product-thumb"><img src="img/shop/cart/01.jpg" alt="Product"></div>
+                        <div class="cart-item-product-info">
+                            <h4 class="cart-item-product-title">Endress Hauser Promass 80 I</h4>
+                            <span><strong>Size:</strong> 3/4"</span>
+                            <span><strong>Order Code:</strong> 80I15-AFPDAAABBBAA</span>
+                            <span><strong>Serial Number:</strong> 76013916000</span>
+                            <span><strong>Year:</strong> 2005</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Прилад</div><span class="text-xl font-weight-medium">Витратомір</span>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Кількість</div>
+                    <div class="count-input">
+                        <select class="form-control">
+                            <option>1</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Ціна за одиницю</div><span
+                        class="text-xl font-weight-medium">$5.088</span>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Ціна за 1 без ПДВ</div><span
+                        class="text-xl font-weight-medium">145.008грн</span>
+                </div>
+            </div>
+            <!-- 4 Cart Item 1/2" Endress Hauser 83P15-6ETBGARCLAAK Promass 83 P Flowmeter S/N J2033A16000, 2014 -->
+            <div class="cart-item d-md-flex justify-content-between"><span class="add-item"><i
+                        class="fe-icon-check"></i></span>
+                <div class="px-3 my-3">
+                    <a class="gallery-item figure-img" href="img/components/gallery/01.jpg" data-fancybox="gallery2"
+                        data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}">
+                        <div class="cart-item-product-thumb"><img src="img/shop/cart/01.jpg" alt="Product"></div>
+                        <div class="cart-item-product-info">
+                            <h4 class="cart-item-product-title">Endress Hauser Promass 83 P</h4>
+                            <span><strong>Size:</strong> 1/2"</span>
+                            <span><strong>Order Code:</strong> 83P15-6ETBGARCLAAK</span>
+                            <span><strong>Serial Number:</strong> J2033A16000</span>
+                            <span><strong>Year:</strong> 2014</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Прилад</div><span class="text-xl font-weight-medium">Витратомір</span>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Кількість</div>
+                    <div class="count-input">
+                        <select class="form-control">
+                            <option>1</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Ціна за одиницю</div><span
+                        class="text-xl font-weight-medium">$5.232</span>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Ціна за 1 без ПДВ</div><span
+                        class="text-xl font-weight-medium">149.112грн</span>
+                </div>
+            </div>
+            <!-- 5 Cart Item 1/2" Endress Hauser 83P15-6ETBGAACLAAK Promass 83 P Flowmeter S/N J1077716000, 2014 -->
+            <div class="cart-item d-md-flex justify-content-between"><span class="add-item"><i
+                        class="fe-icon-check"></i></span>
+                <div class="px-3 my-3">
+                    <a class="gallery-item figure-img" href="img/components/gallery/01.jpg" data-fancybox="gallery2"
+                        data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}">
+                        <div class="cart-item-product-thumb"><img src="img/shop/cart/01.jpg" alt="Product"></div>
+                        <div class="cart-item-product-info">
+                            <h4 class="cart-item-product-title">Endress Hauser Promass 83 P</h4>
+                            <span><strong>Size:</strong> 1/2"</span>
+                            <span><strong>Order Code:</strong> 83P15-6ETBGAACLAAK</span>
+                            <span><strong>Serial Number:</strong> J1077716000</span>
+                            <span><strong>Year:</strong> 2014</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Прилад</div><span class="text-xl font-weight-medium">Витратомір</span>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Кількість</div>
+                    <div class="count-input">
+                        <select class="form-control">
+                            <option>1</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Ціна за одиницю</div><span
+                        class="text-xl font-weight-medium">$5.232</span>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Ціна за 1 без ПДВ</div><span
+                        class="text-xl font-weight-medium">198.360грн</span>
+                </div>
+            </div>
+            <!-- 6 Cart Item 1-1/2" Endress Hauser 83F40-D999AGNABAAA Promass 83 F Flowmeter S/N JC012016000, 2014 -->
+            <div class="cart-item d-md-flex justify-content-between"><span class="add-item"><i
+                        class="fe-icon-check"></i></span>
+                <div class="px-3 my-3">
+                    <a class="gallery-item figure-img" href="img/components/gallery/01.jpg" data-fancybox="gallery2"
+                        data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}">
+                        <div class="cart-item-product-thumb"><img src="img/shop/cart/01.jpg" alt="Product"></div>
+                        <div class="cart-item-product-info">
+                            <h4 class="cart-item-product-title">Endress Hauser Promass 83 F</h4>
+                            <span><strong>Size:</strong> 1-1/2"</span>
+                            <span><strong>Order Code:</strong> 83F40-D999AGNABAAA</span>
+                            <span><strong>Serial Number:</strong> JC012016000</span>
+                            <span><strong>Year:</strong> 2014</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Прилад</div><span class="text-xl font-weight-medium">Витратомір</span>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Кількість</div>
+                    <div class="count-input">
+                        <select class="form-control">
+                            <option>1</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Ціна за одиницю</div><span
+                        class="text-xl font-weight-medium">$6.960</span>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Ціна за 1 без ПДВ</div><span
+                        class="text-xl font-weight-medium">148.086грн</span>
+                </div>
+            </div>
+            <!-- 7 Cart Item 1/2" Endress Hauser 83F15-C999AARABAAA Promass 83 F Flowmeter S/N 94047F16000, 2007 -->
+            <div class="cart-item d-md-flex justify-content-between"><span class="add-item"><i
+                        class="fe-icon-check"></i></span>
+                <div class="px-3 my-3">
+                    <a class="gallery-item figure-img" href="img/components/gallery/01.jpg" data-fancybox="gallery2"
+                        data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}">
+                        <div class="cart-item-product-thumb"><img src="img/shop/cart/01.jpg" alt="Product"></div>
+                        <div class="cart-item-product-info">
+                            <h4 class="cart-item-product-title">Endress Hauser Promass 83 F</h4>
+                            <span><strong>Size:</strong> 1/2"</span>
+                            <span><strong>Order Code:</strong> 83F15-C999AARABAAA</span>
+                            <span><strong>Serial Number:</strong> 94047F16000</span>
+                            <span><strong>Year:</strong> 2007</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Прилад</div><span class="text-xl font-weight-medium">Витратомір</span>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Кількість</div>
+                    <div class="count-input">
+                        <select class="form-control">
+                            <option>1</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Ціна за одиницю</div><span
+                        class="text-xl font-weight-medium">$5.196</span>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Ціна за 1 без ПДВ</div><span
+                        class="text-xl font-weight-medium">149.112грн</span>
+                </div>
+            </div>
+            <!-- 8 Cart Item 1/2" Endress Hauser 83P15-6ETBGAACLAAK Promass 83 P Flowmeter S/N J1077816000, 2014 -->
+            <div class="cart-item d-md-flex justify-content-between"><span class="add-item"><i
+                        class="fe-icon-check"></i></span>
+                <div class="px-3 my-3">
+                    <a class="gallery-item figure-img" href="img/components/gallery/01.jpg" data-fancybox="gallery2"
+                        data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}">
+                        <div class="cart-item-product-thumb"><img src="img/shop/cart/01.jpg" alt="Product"></div>
+                        <div class="cart-item-product-info">
+                            <h4 class="cart-item-product-title">Endress Hauser Promass 83 P</h4>
+                            <span><strong>Size:</strong> 1/2"</span>
+                            <span><strong>Order Code:</strong> 83P15-6ETBGAACLAAK</span>
+                            <span><strong>Serial Number:</strong> J1077816000</span>
+                            <span><strong>Year:</strong> 2014</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Прилад</div><span class="text-xl font-weight-medium">Витратомір</span>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Кількість</div>
+                    <div class="count-input">
+                        <select class="form-control">
+                            <option>1</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Ціна за одиницю</div><span
+                        class="text-xl font-weight-medium">$5.232</span>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Ціна за 1 без ПДВ</div><span
+                        class="text-xl font-weight-medium">149.112грн</span>
+                </div>
+            </div>
+            <!-- 9 Cart Item 1" Endress Hauser 83P25-6FTMAANABBAA Promass 83 P Flowmeter S/N EB065D16000, 2011 -->
+            <div class="cart-item d-md-flex justify-content-between"><span class="add-item"><i
+                        class="fe-icon-check"></i></span>
+                <div class="px-3 my-3">
+                    <a class="gallery-item figure-img" href="img/components/gallery/01.jpg" data-fancybox="gallery2"
+                        data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}">
+                        <div class="cart-item-product-thumb"><img src="img/shop/cart/01.jpg" alt="Product"></div>
+                        <div class="cart-item-product-info">
+                            <h4 class="cart-item-product-title">Endress Hauser Promass 83 P</h4>
+                            <span><strong>Size:</strong> 1"</span>
+                            <span><strong>Order Code:</strong> 83P25-6FTMAANABBAA</span>
+                            <span><strong>Serial Number:</strong> EB065D16000</span>
+                            <span><strong>Year:</strong> 2011</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Прилад</div><span class="text-xl font-weight-medium">Витратомір</span>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Кількість</div>
+                    <div class="count-input">
+                        <select class="form-control">
+                            <option>1</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Ціна за одиницю</div><span
+                        class="text-xl font-weight-medium">$5.040</span>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Ціна за 1 без ПДВ</div><span
+                        class="text-xl font-weight-medium">143.640грн</span>
+                </div>
+            </div>
+            <!-- 10 Cart Item 1" Endress Hauser 83P25-6ETCAANABBAA Promass 83 P Flowmeter S/N EB065C16000, 2011 -->
+            <div class="cart-item d-md-flex justify-content-between"><span class="add-item"><i
+                        class="fe-icon-check"></i></span>
+                <div class="px-3 my-3">
+                    <a class="gallery-item figure-img" href="img/components/gallery/01.jpg" data-fancybox="gallery2"
+                        data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}">
+                        <div class="cart-item-product-thumb"><img src="img/shop/cart/01.jpg" alt="Product"></div>
+                        <div class="cart-item-product-info">
+                            <h4 class="cart-item-product-title">Endress Hauser Promass 83 P</h4>
+                            <span><strong>Size:</strong> 1"</span>
+                            <span><strong>Order Code:</strong> 83P25-6ETCAANABBAA</span>
+                            <span><strong>Serial Number:</strong> EB065C16000</span>
+                            <span><strong>Year:</strong> 2011</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Прилад</div><span class="text-xl font-weight-medium">Витратомір</span>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Кількість</div>
+                    <div class="count-input">
+                        <select class="form-control">
+                            <option>3</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Ціна за одиницю</div><span
+                        class="text-xl font-weight-medium">$5.040</span>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Ціна за 1 без ПДВ</div><span
+                        class="text-xl font-weight-medium">143.640грн</span>
+                </div>
+            </div>
+            <!-- 11 Cart Item 1-1/2" Endress Hauser 83S40-AFTMAAA9BAAA Promass 83 S Flowmeter S/N NA07AD16000, 2018 -->
+            <div class="cart-item d-md-flex justify-content-between"><span class="add-item"><i
+                        class="fe-icon-check"></i></span>
+                <div class="px-3 my-3">
+                    <a class="gallery-item figure-img" href="img/components/gallery/01.jpg" data-fancybox="gallery2"
+                        data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}">
+                        <div class="cart-item-product-thumb"><img src="img/shop/cart/01.jpg" alt="Product"></div>
+                        <div class="cart-item-product-info">
+                            <h4 class="cart-item-product-title">Endress Hauser Promass 83 S</h4>
+                            <span><strong>Size:</strong> 1-1/2"</span>
+                            <span><strong>Order Code:</strong> 83S40-AFTMAAA9BAAA</span>
+                            <span><strong>Serial Number:</strong> NA07AD16000</span>
+                            <span><strong>Year:</strong> 2018</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Прилад</div><span class="text-xl font-weight-medium">Витратомір</span>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Кількість</div>
+                    <div class="count-input">
+                        <select class="form-control">
+                            <option>1</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Ціна за одиницю</div><span
+                        class="text-xl font-weight-medium">$8.280</span>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Ціна за 1 без ПДВ</div><span
+                        class="text-xl font-weight-medium">235.980грн</span>
+                </div>
+            </div>
+            <!-- 12 Cart Item 1-1/2" Endress Hauser 83i41-AFTAAAAABAA2 Promass 83 I Flowmeter S/N 9B053616000, 2007 -->
+            <div class="cart-item d-md-flex justify-content-between"><span class="add-item"><i
+                        class="fe-icon-check"></i></span>
+                <div class="px-3 my-3">
+                    <a class="gallery-item figure-img" href="img/components/gallery/01.jpg" data-fancybox="gallery2"
+                        data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}">
+                        <div class="cart-item-product-thumb"><img src="img/shop/cart/01.jpg" alt="Product"></div>
+                        <div class="cart-item-product-info">
+                            <h4 class="cart-item-product-title">Endress Hauser Promass 83 I</h4>
+                            <span><strong>Size:</strong> 1-1/2"</span>
+                            <span><strong>Order Code:</strong> 83i41-AFTAAAAABAA2</span>
+                            <span><strong>Serial Number:</strong> 9B053616000</span>
+                            <span><strong>Year:</strong> 2007</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Прилад</div><span class="text-xl font-weight-medium">Витратомір</span>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Кількість</div>
+                    <div class="count-input">
+                        <select class="form-control">
+                            <option>1</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Ціна за 1, USD</div><span
+                        class="text-xl font-weight-medium">6.972</span>
+                </div>
+                <div class="px-3 my-3 text-center">
+                    <div class="cart-item-label">Ціна з 1, UAH без ПДВ</div><span
+                        class="text-xl font-weight-medium">198.702грн</span>
+                </div>
+            </div>
+            <!-- Coupon + Subtotal-->
+            <div class="d-sm-flex justify-content-between align-items-center text-center text-sm-left">
+                <form class="form-inline py-2">
+                    <label class="sr-only">Коментар 1</label>
+                    <input class="form-control form-control-sm my-2 mr-3" type="text" placeholder="Коментар 1" required>
+                    <button class="btn btn-secondary btn-sm my-2 mx-auto mx-sm-0" type="submit">Коментар 2</button>
+                </form>
+                <div class="py-2">
+                    <span
+                        class="d-inline-block align-middle text-sm text-muted font-weight-medium text-uppercase mr-2">Загальна
+                        сума:</span><span class="d-inline-block align-middle text-xl font-weight-medium">$78.840</span>
+                    &nbsp;&nbsp;
+                    <span
+                        class="d-inline-block align-middle text-sm text-muted font-weight-medium text-uppercase mr-2">Загальна
+                        сума без ПДВ:</span><span
+                        class="d-inline-block align-middle text-xl font-weight-medium">2.246.940грн</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Popular Brands-->
+    <section class="bg-secondary pt-5 pb-4">
+        <div class="container pt-3 pb-2">
+            <h3 class="h4 block-title text-center">Партнери ЦКБ «Плазма»</h3>
+            <div class="owl-carousel carousel-flush pt-3"
+                data-owl-carousel="{ &quot;nav&quot;: false, &quot;dots&quot;: true, &quot;autoplay&quot;: true, &quot;autoplayTimeout&quot;: 3500, &quot;loop&quot;: true, &quot;autoHeight&quot;: true, &quot;responsive&quot;: {&quot;0&quot;:{&quot;items&quot;:1},&quot;360&quot;:{&quot;items&quot;:2},&quot;600&quot;:{&quot;items&quot;:3},&quot;991&quot;:{&quot;items&quot;:4},&quot;1200&quot;:{&quot;items&quot;:4}} }">
+                <a class="d-block bg-white box-shadow py-4 py-sm-5 px-2 mb-30" href="#"><img class="d-block mx-auto"
+                        src="img/partners/10.png" style="width: 165px;" alt="Partner"></a>
+                <a class="d-block bg-white box-shadow py-4 py-sm-5 px-2 mb-30" href="#"><img class="d-block mx-auto"
+                        src="img/partners/11.png" style="width: 165px;" alt="Partner"></a>
+                <a class="d-block bg-white box-shadow py-4 py-sm-5 px-2 mb-30" href="#"><img class="d-block mx-auto"
+                        src="img/partners/14.png" style="width: 165px;" alt="Partner"></a>
+                <a class="d-block bg-white box-shadow py-4 py-sm-5 px-2 mb-30" href="#"><img class="d-block mx-auto"
+                        src="img/partners/13.png" style="width: 165px;" alt="Partner"></a>
+                <a class="d-block bg-white box-shadow py-4 py-sm-5 px-2 mb-30" href="#"><img class="d-block mx-auto"
+                        src="img/partners/12.png" style="width: 165px;" alt="Partner"></a>
+                <a class="d-block bg-white box-shadow py-4 py-sm-5 px-2 mb-30" href="#"><img class="d-block mx-auto"
+                        src="img/partners/15.png" style="width: 165px;" alt="Partner"></a>
+                <a class="d-block bg-white box-shadow py-4 py-sm-5 px-2 mb-30" href="#"><img class="d-block mx-auto"
+                        src="img/partners/16.png" style="width: 165px;" alt="Partner"></a>
+                <a class="d-block bg-white box-shadow py-4 py-sm-5 px-2 mb-30" href="#"><img class="d-block mx-auto"
+                        src="img/partners/17.png" style="width: 165px;" alt="Partner"></a>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Us CTA-->
+    <section class="bg-gradient py-4">
+        <div class="container position-relative bg-no-repeat bg-center py-5 text-center"
+            style="background-image: url(img/pages/dotted-map.png);">
+            <h2 class="block-title text-white mt-5 mb-4">Чому ЦКБ «Плазма»?<small class="text-white">Ефективне вирішення
+                    проблем промислової автоматизації у сфері LPG, спиртів</small></h2><a
+                class="btn btn-style-4 btn-light mb-5" href="#modalCentered" data-toggle="modal">Зв'язатися</a>
+        </div>
+    </section>
+    <!-- Vertically Centered Modal -->
+    <div class="modal fade" id="modalCentered" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">ТОВ «ЦКБ «Плазма»</h4>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <p>Телефон: <a href="tel:+380675070210"><strong>+380 67 507 0210</strong></a>&nbsp;&nbsp; Viber:
+                        <a class="social-btn sb-style-3 sb-viber" title="Viber"
+                            href="viber://chat?number=380675070210"><i class="socicon-viber"></i></a> WhatsApp:
+                        <a class="social-btn sb-style-3 sb-whatsapp" title="Whatsapp"
+                            href="whatsapp://send?phone=380675070210"><i class="socicon-whatsapp"></i></a>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary btn-sm" type="button" data-dismiss="modal">Закрити</button>
+                    <button class="btn btn-primary btn-sm" type="button">Зберігти</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer-->
+    <footer class="bg-dark pt-5">
+        <div class="container pt-2">
+            <div class="row">
+                <div class="col-lg-3 pb-4 mb-2">
+                    <a class="navbar-brand d-inline-block mb-4" href="home-corporate-website.html"><img
+                            src="img/logo/plasma-logo-light.png" alt="ЦКБ Плазма"></a>
+                    <p class="text-sm text-white opacity-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Utar enim ad minim veniam.
+                    </p>
+                    <ul class="list-icon text-sm pb-2">
+                        <li><i class="fe-icon-map-pin text-white opacity-60"></i><a class="navi-link text-white"
+                                href="home-corporate-website.html#">
+                                &nbsp;Русанівська набережна,18 Київ 02154 Україна</a></li>
+                        <li><i class="fe-icon-phone text-white opacity-60"></i><a class="navi-link text-white"
+                                href="tel:+1212477690000">
+                                &nbsp;+38 (067) 507 0210</a></li>
+                        <li><i class="fe-icon-mail text-white opacity-60"></i><a class="navi-link text-white"
+                                href="mailto:support@example.com">
+                                &nbsp;info@plasma.in.ua</a></li>
+                    </ul><a class="social-btn sb-style-6 sb-facebook sb-light-skin"
+                        href="home-corporate-website.html#"><i class="socicon-facebook"></i></a><a
+                        class="social-btn sb-style-6 sb-twitter sb-light-skin" href="home-corporate-website.html#"><i
+                            class="socicon-twitter"></i></a>
+                    <a class="social-btn sb-style-6 sb-youtube sb-light-skin" href="home-corporate-website.html#"><i
+                            class="socicon-youtube"></i></a><a class="social-btn sb-style-6 sb-instagram sb-light-skin"
+                        href="home-corporate-website.html#"><i class="socicon-instagram"></i></a>
+                </div>
+                <div class="col-lg-6">
+                    <div class="widget widget-light-skin mb-0">
+                        <h4 class="widget-title">Корисні посилання</h4>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="widget widget-categories widget-light-skin">
+                                <ul>
+                                    <li><a href="home-corporate-website.html#">About Us</a></li>
+                                    <li><a href="home-corporate-website.html#">Our Story</a></li>
+                                    <li><a href="home-corporate-website.html#">Careers at ЦКБ Плазма</a></li>
+                                    <li><a href="home-corporate-website.html#">Services We Provide</a></li>
+                                    <li><a href="home-corporate-website.html#">Latest News</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="widget widget-categories widget-light-skin">
+                                <ul>
+                                    <li><a href="home-corporate-website.html#">Help Center</a></li>
+                                    <li><a href="home-corporate-website.html#">My Account Info</a></li>
+                                    <li><a href="home-corporate-website.html#">Affiliate Program</a></li>
+                                    <li><a href="home-corporate-website.html#">Office Directory</a></li>
+                                    <li><a href="home-corporate-website.html#">Terms &amp; Conditions</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="widget widget-light-skin">
+                        <h4 class="widget-title">Наші додатки</h4><a
+                            class="market-btn apple-btn market-btn-light-skin mr-3 mb-3"
+                            href="home-corporate-website.html#"><span class="mb-subtitle">Download on the</span><span
+                                class="mb-title">App Store</span></a><a
+                            class="market-btn google-btn market-btn-light-skin mr-3 mb-3"
+                            href="home-corporate-website.html#"><span class="mb-subtitle">Download on the</span><span
+                                class="mb-title">Google Play</span></a>
+                        <a class="market-btn windows-btn market-btn-light-skin mr-3 mb-3"
+                            href="home-corporate-website.html#"><span class="mb-subtitle">Download on the</span><span
+                                class="mb-title">Windows Store</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Subscription-->
+        <div class="pt-5" style="background-color: #30363d;">
+            <div class="container">
+                <h6 class="text-white text-center">Отримувати новини</h6>
+                <div class="row justify-content-center pb-5">
+                    <div class="col-xl-6 col-lg-7 col-md-9">
+                        <form action="#" method="post" target="_blank" novalidate>
+                            <div class="input-group">
+                                <input class="form-control form-control-light-skin" type="email" name="EMAIL"
+                                    placeholder="Email address">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary" type="submit">Підписатися</button>
+                                </div>
+                            </div><small class="form-text text-white opacity-50 pt-1 text-center">Ви отримуватимете
+                                Email коли на сайт додається новий проект, або новий товар в магазин</small>
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                <input type="text" name="b_c7103e2c981361a6639545bd5_1194bb7544" tabindex="-1">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <hr class="hr-light">
+                <div class="d-md-flex justify-content-between align-items-center py-4 text-center text-md-left">
+                    <div class="order-2"><a class="footer-link text-white"
+                            href="home-corporate-website.html#">About</a><a class="footer-link text-white ml-3"
+                            href="home-corporate-website.html#">Help &amp; Info</a><a
+                            class="footer-link text-white ml-3" href="home-corporate-website.html#">Privacy Policy</a>
+                    </div>
+                    <p class="m-0 text-sm text-white order-1"><span class='opacity-60'>© All rights reserved. Made
+                            with</span> <i class='d-inline-block align-middle fe-icon-heart text-danger'></i> <a
+                            href='//plasma.in.ua/' class='d-inline-block nav-link text-white opacity-60 p-0'
+                            target='_blank'>by ЦКБ Плазма</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Back To Top Button--><a class="scroll-to-top-btn" href="home-corporate-website.html#"><i
+            class="fe-icon-chevron-up"></i></a>
+    <!-- Backdrop-->
+    <div class="site-backdrop"></div>
+    <!-- JavaScript (jQuery) libraries, plugins and custom scripts-->
+    <script src="js/vendor.min.js"></script>
+    <script src="js/theme.min.js"></script>
+</body>
+
+</html>
