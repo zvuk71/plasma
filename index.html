@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
-    <meta charset="utf-8">
-    <title>ЦКБ Плазма | Інженерія | IT Системи
-    </title>
+    <meta charset="UTF-8" />
+    <title>Продаж коріолісів із США: Розмитнення, Налаштування | ЦКБ ПЛАЗМА</title>
     <!-- SEO Meta Tags-->
-    <meta name="description" content="ЦКБ Плазма">
+    <meta name="description"
+        content="ЦКБ Плазма: проектування інженерних споруд; Продаж, доставка, розмитнення коріолісів і промислового обладнання із США; газові LPG заправки, системи електронного моніторингу і обліку">
     <meta name="keywords"
-        content="multipurpose, portfolio, blog, shop, e-commerce, modern, flat style, responsive,  business, corporate, mobile, bootstrap 4, html5, css3, jquery, js, gallery, slider, touch, creative, clean">
+        content="ЦКБ Плазма,коріоліс,продаж вимірювального обладнання,розмитнення,проектування промислових споруд,документація,дозволи,LPG,IT-проекти,програмування,газові заправки,газовози">
     <meta name="author" content="ЦКБ Плазма">
     <!-- Viewport-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,17 +18,17 @@
     <!--<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">-->
     <link rel="manifest" href="site.webmanifest">
     <link rel="mask-icon" color="#343b43" href="safari-pinned-tab.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="msapplication-TileColor" content="#603cba">
     <meta name="theme-color" content="#ffffff">
-    <!-- Vendor Styles including: Font Icons, Plugins, etc.-->
-    <link rel="stylesheet" media="screen" href="css/vendor.min.css">
-    <!-- Main Theme Styles + Bootstrap-->
-    <link rel="stylesheet" media="screen" href="css/theme.min.css">
-    <!-- Modernizr-->
-    <script src="js/modernizr.min.js"></script>
+    <meta name="csrf-param" content="_csrf">
+    <title></title>
+    <link href="css/vendor.min.css?v=1593030513" rel="stylesheet">
+    <link href="css/theme.min.css?v=1593030513" rel="stylesheet">
+    <meta name="csrf-token"
+        content="p4G9EmioLaiM0I_DglhazQgdOqwGVg8Bm9xqmbTvzODwwuRwB8R45e-H1vXHISOfYlVfnlwEYWOp7gnY9qmbog==">
 </head>
 <!-- Body-->
-
 <body>
     <!-- Off-Canvas Menu-->
     <div class="offcanvas-container is-triggered offcanvas-container-reverse" id="mobile-menu"><span
@@ -37,11 +37,10 @@
             <h6>Меню</h6>
             <div class="d-flex justify-content-between pt-2">
                 <div class="btn-group w-100 mr-2">
-                    <a class="btn btn-secondary btn-sm btn-block dropdown-toggle" href="index.html#"
-                        data-toggle="dropdown"><img src="img/flags/ua.png" alt="Українська" />Україна</a>
+                    <a class="btn btn-secondary btn-sm btn-block dropdown-toggle" href="/" data-toggle="dropdown"><img
+                            src="/img/flags/ua.png" alt="Українська" />Україна</a>
                     <div class="dropdown-menu" style="min-width: 150px;">
-                        <a class="dropdown-item" href="index.html#"><img src="img/flags/en.png"
-                                alt="English" />English</a>
+                        <a class="dropdown-item" href="/"><img src="/img/flags/en.png" alt="English" />English</a>
                     </div>
                 </div><a class="btn btn-primary btn-sm btn-block" href="account-login.html"><i
                         class="fe-icon-user"></i>&nbsp;Увійти</a>
@@ -52,23 +51,34 @@
             <div class="accordion mobile-menu" id="accordion-menu">
                 <!-- Home-->
                 <div class="card">
-                    <div class="card-header"><a class="mobile-menu-link active"
-                            href="index.html">Головна</a></div>
+                    <div class="card-header"><a class="mobile-menu-link active" href="/">Головна</a></div>
+                </div>
+                <!-- OIML-Calculator-->
+                <div class="card">
+                    <div class="card-header"><a class="mobile-menu-link"
+                            href="//drive.google.com/file/d/1zbC3euQASjBP3JB9oKVVJUEpyDCf688y/view?usp=sharing"
+                            target="_blank"
+                            title="OIML AVB ABW Calculator by PLASMA Company Ukraine">OIML-Calculator</a></div>
+                </div>
+                <!-- LPG-Counter-->
+                <div class="card">
+                    <div class="card-header"><a class="mobile-menu-link" href="//lpg.plasma.in.ua/" target="_blank"
+                            title="LPG Consumption Monitor by PLASMA Company Ukraine">LPG-Counter</a></div>
                 </div>
                 <!-- Projects-->
                 <div class="card">
-                    <div class="card-header"><a class="mobile-menu-link" href="projects.html">Проекти</a></div>
+                    <div class="card-header"><a class="mobile-menu-link" href="/projects">Проекти</a></div>
                 </div>
                 <!-- Contacts-->
                 <div class="card">
-                    <div class="card-header"><a class="mobile-menu-link" href="contacts.html">Контакти</a></div>
+                    <div class="card-header"><a class="mobile-menu-link" href="/contacts">Контакти</a></div>
                 </div>
             </div>
         </div>
         <div class="offcanvas-footer px-4 pt-3 pb-2 text-center">
             <a class="social-btn sb-style-3 sb-viber" title="Viber" href="viber://chat?number=380675070210"><i
                     class="socicon-viber"></i></a>
-            <a class="social-btn sb-style-3 sb-whatsapp" title="Whatsapp" href="whatsapp://send?phone=380675070210"><i
+            <a class="social-btn sb-style-3 sb-whatsapp" title="Whatsapp" href="//wa.me/380675070210"><i
                     class="socicon-whatsapp"></i></a>
         </div>
     </div>
@@ -76,20 +86,25 @@
     <header class="navbar-wrapper navbar-boxed navbar-simple-ghost">
         <div class="container-fluid">
             <div class="d-table-cell align-middle pr-md-3">
-                <a class="navbar-brand mr-1" href="index.html"><img
-                        src="img/logo/plasma-logo-light.png" alt="ЦКБ Плазма" /></a>
+                <a class="navbar-brand mr-1" href="/"><img src="/img/logo/plasma-logo-light.png" alt="ЦКБ Плазма" /></a>
             </div>
             <div class="d-table-cell w-100 align-middle pl-md-3">
                 <div class="navbar justify-content-end justify-content-lg-between">
                     <!-- Main Menu-->
                     <ul class="navbar-nav d-none d-lg-block">
                         <!-- Home-->
-                        <li class="nav-item mega-dropdown-toggle active"><a class="nav-link"
-                                href="index.html">Головна</a>
-                        </li>
-                        <!-- Components-->
-                        <li class="nav-item"><a class="nav-link" href="projects.html">Проекти</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contacts.html">Контакти</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="/">Головна</a></li>
+                        <!-- OIML-Calculator-->
+                        <li class="nav-item"><a class="nav-link"
+                                href="//drive.google.com/file/d/1zbC3euQASjBP3JB9oKVVJUEpyDCf688y/view" target="_blank"
+                                title="OIML AVB ABW Calculator by PLASMA Company Ukraine">OIML-Calculator</a></li>
+                        <!-- LPG-Counter-->
+                        <li class="nav-item"><a class="nav-link" href="//lpg.plasma.in.ua/" target="_blank"
+                                title="LPG Consumption Monitor by PLASMA Company Ukraine">LPG-Counter</a></li>
+                        <!-- Projects-->
+                        <li class="nav-item"><a class="nav-link" href="/projects">Проекти</a></li>
+                        <!-- Contacts-->
+                        <li class="nav-item"><a class="nav-link" href="/contacts">Контакти</a></li>
                     </ul>
                     <div>
                         <ul class="navbar-buttons d-inline-block align-middle mr-lg-2">
@@ -102,24 +117,23 @@
             </div>
         </div>
     </header>
-    <!-- Page Content-->
     <!-- Hero Slider-->
     <section class="owl-carousel dots-inside controls-hidden-mobile"
-        data-owl-carousel="{ &quot;nav&quot;: true, &quot;dots&quot;: true, &quot;loop&quot;: true, &quot;autoplay&quot;: true, &quot;autoplayTimeout&quot;: 13000 }">
+        data-owl-carousel="{ &quot;nav&quot;: true, &quot;dots&quot;: true, &quot;loop&quot;: true, &quot;autoplay&quot;: true, &quot;autoplayTimeout&quot;: 15000 }">
         <div class="bg-cover bg-center bg-no-repeat py-5"
-            style="background-image: url(img/homepages/corporate-website/gns-plasmainua.webp);"><span
-                class="bg-overlay"></span>
+            style="background-image: url(img/homepages/plasma_obladnannya-USA.webp);"><span class="bg-overlay"></span>
             <div class="container bg-content py-md-5">
                 <div class="row justify-content-center py-md-5">
                     <div class="col-12 text-center py-md-5">
                         <div class="d-table w-100 bg-no-repeat bg-center"
-                            style="min-height: 448px; background-size: 452px 448px; background-image: url(img/homepages/corporate-website/hero-slide-shape01.png);">
+                            style="min-height: 448px; background-size: 452px 448px; background-image: url(img/homepages/hero-slide-shape01.png);">
                             <div class="d-table-cell align-middle">
-                                <h2 class="display-4 text-white"><em class='font-weight-light'>Сучасна</em> Інженерія
+                                <h2 class="display-4 text-white"><em class='font-weight-light'>Продаж</em> коріолісів
                                 </h2>
-                                <p class="text-xl text-white opacity-75 pb-4">Проекти, дозволи, зведення, запуск,
-                                    техпідтримка</p><a class="btn btn-style-4 btn-light"
-                                    href="index.html#">Детальніше</a>
+                                <p class="text-xl text-white opacity-75 pb-4">Вимірювальна техніка, контролери, датчики,
+                                    регулююча та запірна арматура, газові колонки, електронасоси &#9679;<br>Замовлення,
+                                    доставка, розмитнення, налаштування і калібровка промислового обладнання із США під
+                                    ключ</p><a class="btn btn-style-4 btn-light" href="/">Детальніше</a>
                             </div>
                         </div>
                     </div>
@@ -127,19 +141,61 @@
             </div>
         </div>
         <div class="bg-cover bg-center bg-no-repeat py-5"
-            style="background-image: url(img/homepages/corporate-website/systema-obliku-lpg-gazovoza-plasmainua.webp);">
-            <span class="bg-overlay" style="opacity: .55;"></span>
+            style="background-image: url(img/homepages/montazh-system-monitoryngu.webp);"><span
+                class="bg-overlay"></span>
             <div class="container bg-content py-md-5">
                 <div class="row justify-content-center py-md-5">
                     <div class="col-12 text-center py-md-5">
                         <div class="d-table w-100 bg-no-repeat bg-center"
-                            style="min-height: 448px; background-size: 452px 448px; background-image: url(img/homepages/corporate-website/hero-slide-shape02.png);">
+                            style="min-height: 448px; background-size: 452px 448px; background-image: url(img/homepages/hero-slide-shape02.png);">
                             <div class="d-table-cell align-middle">
-                                <h2 class="display-4 text-white"><em class='font-weight-light'>Новітні</em> IT-системи
+                                <h2 class="display-4 text-white"><em class='font-weight-light'>Монтажні</em> роботи</h2>
+                                <p class="text-xl text-white opacity-75 pb-4">Розробка і впровадження ефективних систем
+                                    контролю за витратами спирту, етанолу, біоетанолу і пропан-бутану
+                                    &#9679;<br>Постачання вимірювального обладнання, калібровка, налаштування,
+                                    техобслуговування, техпідтримка</p><a class="btn btn-style-4 btn-light"
+                                    href="/">Детальніше</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-cover bg-center bg-no-repeat py-5"
+            style="background-image: url(img/homepages/gns-plasmainua.webp);"><span class="bg-overlay"></span>
+            <div class="container bg-content py-md-5">
+                <div class="row justify-content-center py-md-5">
+                    <div class="col-12 text-center py-md-5">
+                        <div class="d-table w-100 bg-no-repeat bg-center"
+                            style="min-height: 448px; background-size: 452px 448px; background-image: url(img/homepages/hero-slide-shape01.png);">
+                            <div class="d-table-cell align-middle">
+                                <h2 class="display-4 text-white"><em class='font-weight-light'>Новітня</em> Інженерія
                                 </h2>
-                                <p class="text-xl text-white opacity-75 pb-4">Складні програмні продукти для
-                                    промисловості</p><a class="btn btn-style-4 btn-light"
-                                    href="index.html#">Детальніше</a>
+                                <p class="text-xl text-white opacity-75 pb-4">Проектування і будівництво промислових
+                                    споруд, газових об'єктів, енергомереж і комунікацій &#9679;<br>Документація,
+                                    отримання дозволів, монтаж обладнання, пусконаладка і техобслуговування</p><a
+                                    class="btn btn-style-4 btn-light" href="/">Детальніше</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-cover bg-center bg-no-repeat py-5"
+            style="background-image: url(img/homepages/systema-obliku-lpg-gazovoza-plasmainua.webp);"><span
+                class="bg-overlay"></span>
+            <div class="container bg-content py-md-5">
+                <div class="row justify-content-center py-md-5">
+                    <div class="col-12 text-center py-md-5">
+                        <div class="d-table w-100 bg-no-repeat bg-center"
+                            style="min-height: 448px; background-size: 452px 448px; background-image: url(img/homepages/hero-slide-shape02.png);">
+                            <div class="d-table-cell align-middle">
+                                <h2 class="display-4 text-white"><em class='font-weight-light'>Онлайн</em> моніторинг
+                                </h2>
+                                <p class="text-xl text-white opacity-75 pb-4">Проектування і монтаж електронних систем
+                                    обліку спирту, біоетанолу і пропан-бутану LPG &#9679;<br>Розробка сайтів, додатків
+                                    для iOS і Android для промисловості та сільського господарства</p><a
+                                    class="btn btn-style-4 btn-light" href="/">Детальніше</a>
                             </div>
                         </div>
                     </div>
@@ -153,9 +209,9 @@
         <div class="container text-left align-self-center">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a>
+                    <li class="breadcrumb-item"><a href="/">Головна</a>
                     </li>
-                    <li class="breadcrumb-item"><a href="shop-boxed-ls.html">Shop</a>
+                    <li class="breadcrumb-item"><a href="shop-boxed-ls.html">Магазин</a>
                     </li>
                 </ol>
             </nav>
@@ -164,21 +220,21 @@
             </div>
         </div>
     </div>
-    <!-- Services-->
+    <!-- Profiles -->
     <section class="container pt-3">
-        <h2 class="h3 block-title text-center">Що ми робимо<small>Будь що. І краще за всіх &#128522; </small></h2>
+        <p class="h3 block-title text-center">Що ми робимо<small>Будь що. І краще за всіх &#128522; </small></p>
         <div class="row pt-5 mt-30">
             <div class="col-lg-4 col-sm-6 mb-30 pb-5">
                 <a class="card" href="index.html#">
                     <div class="box-shadow bg-white rounded-circle mx-auto"
                         style="width: 90px; height: 90px; margin-top: -45px;"><img class="d-block mx-auto"
-                            src="img/homepages/corporate-website/service-icon01.png" alt="Certification"></div>
+                            src="img/homepages/service-icon03.png" alt="Продаж вимірювальної техніки"></div>
                     <div class="card-body text-center">
-                        <h3 class="card-title pt-1">Складні IT-комплекси</h3>
-                        <p class="card-text text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip.</p><span
-                            class="text-sm text-uppercase font-weight-bold">Learn More&nbsp;<i
+                        <h3 class="card-title pt-1">Продаж коріолісів і обладнання із США</h3>
+                        <p class="card-text text-sm">Вимірювальна техніка — витратоміри (масоміри) Endress-Hauser,
+                            Emerson Micro Motion; контролери, рівнеміри, датчики, регулююча та запірна арматура:
+                            калібровка, налаштування, ремонт, техпідтримка.<br>Продаж і розмитнення обладнання із США
+                            під ключ</p><span class="text-sm text-uppercase font-weight-bold">Детальніше&nbsp;<i
                                 class="fe-icon-arrow-right"></i></span>
                     </div>
                 </a>
@@ -187,13 +243,14 @@
                 <a class="card" href="index.html#">
                     <div class="box-shadow bg-white rounded-circle mx-auto"
                         style="width: 90px; height: 90px; margin-top: -45px;"><img class="d-block mx-auto"
-                            src="img/homepages/corporate-website/service-icon02.png" alt="Training"></div>
+                            src="img/homepages/service-icon01.png" alt="Системи онлайн моніторингу і обліку"></div>
                     <div class="card-body text-center">
-                        <h3 class="card-title pt-1">Інженерні споруди</h3>
-                        <p class="card-text text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip.</p><span
-                            class="text-sm text-uppercase font-weight-bold">Learn More&nbsp;<i
+                        <h3 class="card-title pt-1">Системи онлайн обліку і моніторингу</h3>
+                        <p class="card-text text-sm">Розробка WEB-сайтів, додатків для iOS і Android для віддаленого
+                            контролю і обчисленню виробничих процесів в промисловості і сільському
+                            господарстві.<br>Готові IT-рішення для контролю за обігом зрідженого газу LPG, спирту,
+                            етанолу та біоетанолу</p><span
+                            class="text-sm text-uppercase font-weight-bold">Детальніше&nbsp;<i
                                 class="fe-icon-arrow-right"></i></span>
                     </div>
                 </a>
@@ -202,13 +259,13 @@
                 <a class="card" href="index.html#">
                     <div class="box-shadow bg-white rounded-circle mx-auto"
                         style="width: 90px; height: 90px; margin-top: -45px;"><img class="d-block mx-auto"
-                            src="img/homepages/corporate-website/service-icon03.png" alt="Consulting"></div>
+                            src="img/homepages/service-icon02.png" alt="Training"></div>
                     <div class="card-body text-center">
-                        <h3 class="card-title pt-1">Продаж обладнання</h3>
-                        <p class="card-text text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip.</p><span
-                            class="text-sm text-uppercase font-weight-bold">Learn More&nbsp;<i
+                        <h3 class="card-title pt-1">Проектування газових об'єктів, інженерних споруд</h3>
+                        <p class="card-text text-sm">Проектування і будівництво ГНС, САГ, АГЗП, електромереж,
+                            коммунікацій, промислових конструкцій спеціального призначення.<br>Проектування,
+                            документація, дозволи, прокладка, монтаж, підключення, пусконаладка, техпідтримка</p><span
+                            class="text-sm text-uppercase font-weight-bold">Детальніше&nbsp;<i
                                 class="fe-icon-arrow-right"></i></span>
                     </div>
                 </a>
@@ -218,38 +275,48 @@
     <!-- Services-->
     <section class="pt-lg-4 pb-5 mb-3">
         <div class="container">
-            <h3 class="text-center text-lg-left">Всі послуги</h3>
+            <h3 class="text-center text-lg-left">Наші послуги</h3>
             <div class="row pt-4">
                 <div class="col-md-6">
                     <dl class="dl-with-icon">
-                        <dt><i class="fe-icon-check-circle text-success"></i>Master planning &amp; Urban design</dt>
-                        <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio</dd>
-                        <dt><i class="fe-icon-check-circle text-success"></i>Site and building analysis</dt>
-                        <dd>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum</dd>
-                        <dt><i class="fe-icon-check-circle text-success"></i>Contract administration</dt>
-                        <dd>Quis nostrum exercitationem ullam corporis suscipit laboriosam</dd>
-                        <dt><i class="fe-icon-check-circle text-success"></i>Building design</dt>
-                        <dd>Quis nostrum exercitationem ullam corporis suscipit laboriosam</dd>
-                        <dt><i class="fe-icon-check-circle text-success"></i>Demolition planning</dt>
-                        <dd>Itaque earum rerum hic tenetur a sapiente delectus reiciendis volu</dd>
-                        <dt><i class="fe-icon-check-circle text-success"></i>Project management</dt>
-                        <dd>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet</dd>
+                        <dt><i class="fe-icon-check-circle text-success"></i>Продаж вимірювальної техніки</dt><br>
+                        <dd>Коріолісові витратоміри Endress-Hauser, Emerson Micro Motion</dd>
+                        <dd>Калібровка, налаштування, ремонт, техпідтримка</dd>
+                        <dd>Промислові контролери</dd>
+                        <dd>Рівнеміри</dd>
+                        <dd>Датчики</dd>
+                        <dd>Регулююча та запірна арматура</dd>
+                        <dt><i class="fe-icon-check-circle text-success"></i>Електронні системи моніторингу</dt><br>
+                        <dd>IT-рішення для онлайн-моніторингу промислових процесів —<br>створення WEB-сайтів, додатків
+                            для iOS і Android</dd>
+                        <dd>Обчислювальні комплекси для електронного обліку</dd>
+                        <dd>Розробка, проектування, монтаж, запуск, техпідтримка</dd>
+                        <dd>Облік витрат пропан-бутану на газовозах</dd>
+                        <dd>Облік витрат спирту, eфіру, етанолу та біоетанолу<br>на спиртзаводах і пивзаводах</dd>
                     </dl>
                 </div>
                 <div class="col-md-6">
                     <dl class="dl-with-icon">
-                        <dt><i class="fe-icon-check-circle text-success"></i>Interior design</dt>
-                        <dd>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet</dd>
-                        <dt><i class="fe-icon-check-circle text-success"></i>Sustainable / lead design</dt>
-                        <dd>Quis nostrum exercitationem ullam corporis suscipit laboriosam</dd>
-                        <dt><i class="fe-icon-check-circle text-success"></i>Construction documents</dt>
-                        <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio</dd>
-                        <dt><i class="fe-icon-check-circle text-success"></i>Historic preservation</dt>
-                        <dd>Quis nostrum exercitationem ullam corporis suscipit laboriosam</dd>
-                        <dt><i class="fe-icon-check-circle text-success"></i>3D renderings</dt>
-                        <dd>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum</dd>
-                        <dt><i class="fe-icon-check-circle text-success"></i>Consultant coordination</dt>
-                        <dd>Itaque earum rerum hic tenetur a sapiente delectus reiciendis volu</dd>
+                        <dt><i class="fe-icon-check-circle text-success"></i>Імпорт промислового обладнання із США</dt>
+                        <br>
+                        <dd>Верстати та прилади</dd>
+                        <dd>Газові колонки та електронасоси</dd>
+                        <dd>Замовлення, продаж, доставка, розмитнення, документи — під ключ</dd>
+                        <dt><i class="fe-icon-check-circle text-success"></i>Багатопрофільні споруди (стадіони та інше)
+                        </dt><br>
+                        <dd>Електромережі та комунікації — проектування, документація, дозволи, прокладка, монтаж,
+                            підключення, пусконаладка, техпідтримка</dd>
+                        <dd>Інженерні конструкції спеціального призначення — проектування, документація, дозволи,
+                            будівництво, монтаж</dd>
+                        <dt><i class="fe-icon-check-circle text-success"></i>Проектування і монтаж газових об'єктів</dt>
+                        <br>
+                        <dd>Розробка проектної документації для промислових споруд в секторах вжитку природного (метан)
+                            і зрідженого газу (пропан-бутан, LPG) — будівництво, монтаж, підключення, пусконаладка,
+                            техпідтримка</dd>
+                        <dd>Газонаповнювальні станції (ГНС)</dd>
+                        <dd>Сушарки та системи автономного газопостачання (САГ) — для сільського господарства,
+                            промпідприємств і приватних будівель</dd>
+                        <dd>Газові заправки і автогазозаправні пункти (АГЗП)</dd>
                     </dl>
                 </div>
             </div>
@@ -292,7 +359,8 @@
                     </div>
                 </div>
                 <div class="px-3 my-3 text-center">
-                    <div class="cart-item-label">Ціна за одиницю</div><span class="text-xl font-weight-medium">$5.088</span>
+                    <div class="cart-item-label">Ціна за одиницю</div><span
+                        class="text-xl font-weight-medium">$5.088</span>
                 </div>
                 <div class="px-3 my-3 text-center">
                     <div class="cart-item-label">Ціна за 1 без ПДВ</div><span
@@ -745,62 +813,68 @@
     <section class="bg-gradient py-4">
         <div class="container position-relative bg-no-repeat bg-center py-5 text-center"
             style="background-image: url(img/pages/dotted-map.png);">
-            <h2 class="block-title text-white mt-5 mb-4">Чому ЦКБ «Плазма»?<small class="text-white">Ефективне вирішення
-                    проблем промислової автоматизації у сфері LPG, спиртів</small></h2><a
-                class="btn btn-style-4 btn-light mb-5" href="#modalCentered" data-toggle="modal">Зв'язатися</a>
+            <h2 aria-level=”3” class="block-title text-white mt-5 mb-4">Чому ЦКБ «Плазма»?<small
+                    class="text-white">Продаж коріолісних масомірів, доставка і розмитнення верстатів і приладів із
+                    США<br>Ефективне вирішення проблем промислової автоматизації у сфері LPG, спиртів<br>Проектування і
+                    монтаж електронних систем онлайн-моніторингу і обчислення<br>Розробка промислових WEB-сайтів і
+                    мобільних додатків для iOS і Android</small></h2><a class="btn btn-style-4 btn-light mb-5"
+                href="#modalCentered" data-toggle="modal">Зв'язатися</a>
         </div>
     </section>
-    <!-- Vertically Centered Modal -->
+    <!-- Vertically Centered Modal Contacts -->
     <div class="modal fade" id="modalCentered" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">ТОВ «ЦКБ «Плазма»</h4>
+                    <h4 aria-level=”3” class="modal-title">ТОВ «ЦКБ «Плазма»</h4>
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span
                             aria-hidden="true">&times;</span></button>
                 </div>
                 <div class="modal-body">
-                    <p>Телефон: <a href="tel:+380675070210"><strong>+380 67 507 0210</strong></a>&nbsp;&nbsp; Viber:
-                        <a class="social-btn sb-style-3 sb-viber" title="Viber"
+                    <p>Телефон: <a class="sb-style-6" href="tel:+380675070210" title="Подзвонити"><strong>+38 (067) 507
+                                0210</strong></a>&nbsp;&nbsp; Viber:
+                        <a class="social-btn sb-style-6 sb-viber" title="Viber"
                             href="viber://chat?number=380675070210"><i class="socicon-viber"></i></a> WhatsApp:
-                        <a class="social-btn sb-style-3 sb-whatsapp" title="Whatsapp"
-                            href="whatsapp://send?phone=380675070210"><i class="socicon-whatsapp"></i></a>
-                    </p>
+                        <a class="social-btn sb-style-6 sb-whatsapp" title="Whatsapp" href="//wa.me/380675070210"><i
+                                class="socicon-whatsapp"></i></a><br>
+                        <p>Телефон: <a class="sb-style-6" href="tel:+380675070210" title="Подзвонити"><strong>+38 (067)
+                                    507 0210</strong></a>&nbsp;&nbsp; Viber:
+                            <i class="fe-icon-mail"></i>: <a class="sb-style-6" href="mailto:info@plasma.in.ua"
+                                title="Електронна пошта"><strong>info@plasma.in.ua</strong></a>
+                        </p>
                 </div>
                 <div class="modal-footer">
+                    <a href="img/TOV_Plasma_Contacts.webp" download="Контакти компанії ТОВ «ЦКБ «Плазма»"
+                        class="btn btn-primary btn-sm" type="button">Зберігти</a>
                     <button class="btn btn-secondary btn-sm" type="button" data-dismiss="modal">Закрити</button>
-                    <button class="btn btn-primary btn-sm" type="button">Зберігти</button>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Footer-->
     <footer class="bg-dark pt-5">
         <div class="container pt-2">
             <div class="row">
                 <div class="col-lg-3 pb-4 mb-2">
-                    <a class="navbar-brand d-inline-block mb-4" href="index.html"><img
-                            src="img/logo/plasma-logo-light.png" alt="ЦКБ Плазма"></a>
-                    <p class="text-sm text-white opacity-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Utar enim ad minim veniam.
-                    </p>
+                    <a class="navbar-brand d-inline-block mb-4" href="/"><img src="/img/logo/plasma-logo-light.png"
+                            alt="ЦКБ Плазма"></a>
+                    <p class="text-sm text-white opacity-50">Продаж і розмитнення вимірювальної техніки і крупного
+                        промислового обладнання із США: витратоміри Endress-Hauser, Emerson Micro Motion, контролери,
+                        рівнеміри, датчики, регулююча та запірна арматура; газові колонки, електронасоси.<br>IT-системи
+                        обліку промислових процесів<br>Проектування і будівництво ГНС, САГ, АГЗП</p>
                     <ul class="list-icon text-sm pb-2">
                         <li><i class="fe-icon-map-pin text-white opacity-60"></i><a class="navi-link text-white"
-                                href="index.html#">
+                                href="//g.page/Plasma_in_ua">
                                 &nbsp;Русанівська набережна,18 Київ 02154 Україна</a></li>
                         <li><i class="fe-icon-phone text-white opacity-60"></i><a class="navi-link text-white"
-                                href="tel:+1212477690000">
+                                href="tel:+380675070210">
                                 &nbsp;+38 (067) 507 0210</a></li>
                         <li><i class="fe-icon-mail text-white opacity-60"></i><a class="navi-link text-white"
-                                href="mailto:support@example.com">
+                                href="mailto:info@plasma.in.ua">
                                 &nbsp;info@plasma.in.ua</a></li>
-                    </ul><a class="social-btn sb-style-6 sb-facebook sb-light-skin"
-                        href="index.html#"><i class="socicon-facebook"></i></a><a
-                        class="social-btn sb-style-6 sb-twitter sb-light-skin" href="index.html#"><i
-                            class="socicon-twitter"></i></a>
-                    <a class="social-btn sb-style-6 sb-youtube sb-light-skin" href="index.html#"><i
-                            class="socicon-youtube"></i></a><a class="social-btn sb-style-6 sb-instagram sb-light-skin"
-                        href="index.html#"><i class="socicon-instagram"></i></a>
+                    </ul><a class="social-btn sb-style-6 sb-facebook sb-light-skin" href="/"><i
+                            class="socicon-facebook"></i></a>
+                    <a class="social-btn sb-style-6 sb-youtube sb-light-skin" href="/"><i
+                            class="socicon-youtube"></i></a>
                 </div>
                 <div class="col-lg-6">
                     <div class="widget widget-light-skin mb-0">
@@ -810,22 +884,26 @@
                         <div class="col-md-6">
                             <div class="widget widget-categories widget-light-skin">
                                 <ul>
-                                    <li><a href="index.html#">About Us</a></li>
-                                    <li><a href="index.html#">Our Story</a></li>
-                                    <li><a href="index.html#">Careers at ЦКБ Плазма</a></li>
-                                    <li><a href="index.html#">Services We Provide</a></li>
-                                    <li><a href="index.html#">Latest News</a></li>
+                                    <li><a href="//www.easc.endress.com/ru?ii-country=ua&locale=ru" target="_blank"
+                                            title="Endress Hauser — один из международных лидеров в сфере измерительных приборов, услуг и решений для производственных процессов">Endress
+                                            Hauser Ukraine</a></li>
+                                    <li><a href="//www.emerson.com/ru-ua" target="_blank"
+                                            title="Компания Emerson объединяет технические знания с инженерным опытом для создания решений на благо наших заказчиков в постоянно меняющемся мире">Emerson
+                                            Micro Motion</a></li>
+                                    <li><a href="/"> ЦКБ Плазма</a></li>
+                                    <li><a href="/">Services We Provide</a></li>
+                                    <li><a href="/">Latest News</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="widget widget-categories widget-light-skin">
                                 <ul>
-                                    <li><a href="index.html#">Help Center</a></li>
-                                    <li><a href="index.html#">My Account Info</a></li>
-                                    <li><a href="index.html#">Affiliate Program</a></li>
-                                    <li><a href="index.html#">Office Directory</a></li>
-                                    <li><a href="index.html#">Terms &amp; Conditions</a></li>
+                                    <li><a href="/projects">Проекти ЦКБ ТОВ «Плазма»</a></li>
+                                    <li><a href="/">My Account Info</a></li>
+                                    <li><a href="/">Affiliate Program</a></li>
+                                    <li><a href="/">Office Directory</a></li>
+                                    <li><a href="/">Terms &amp; Conditions</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -834,46 +912,63 @@
                 <div class="col-lg-3">
                     <div class="widget widget-light-skin">
                         <h4 class="widget-title">Наші додатки</h4><a
-                            class="market-btn apple-btn market-btn-light-skin mr-3 mb-3"
-                            href="index.html#"><span class="mb-subtitle">Download on the</span><span
-                                class="mb-title">App Store</span></a><a
-                            class="market-btn google-btn market-btn-light-skin mr-3 mb-3"
-                            href="index.html#"><span class="mb-subtitle">Download on the</span><span
-                                class="mb-title">Google Play</span></a>
-                        <a class="market-btn windows-btn market-btn-light-skin mr-3 mb-3"
-                            href="index.html#"><span class="mb-subtitle">Download on the</span><span
-                                class="mb-title">Windows Store</span></a>
+                            class="market-btn apple-btn market-btn-light-skin mr-3 mb-3" href="/"><span
+                                class="mb-subtitle">Download on the</span><span class="mb-title">App Store</span></a><a
+                            class="market-btn google-btn market-btn-light-skin mr-3 mb-3" href="/"><span
+                                class="mb-subtitle">OIML Calculator</span><span class="mb-title">Google Play</span></a>
+                        <a class="market-btn windows-btn market-btn-light-skin mr-3 mb-3" href="/"><span
+                                class="mb-subtitle">Download on the</span><span class="mb-title">Windows
+                                Store</span></a>
                     </div>
                 </div>
             </div>
         </div>
+
         <!-- Subscription-->
         <div class="pt-5" style="background-color: #30363d;">
             <div class="container">
                 <h6 class="text-white text-center">Отримувати новини</h6>
                 <div class="row justify-content-center pb-5">
                     <div class="col-xl-6 col-lg-7 col-md-9">
-                        <form action="#" method="post" target="_blank" novalidate>
+                        <form id="w0" class="subscribe-form" action="/en/site/subscribe" method="post">
+                            <input type="hidden" name="_csrf"
+                                value="p4G9EmioLaiM0I_DglhazQgdOqwGVg8Bm9xqmbTvzODwwuRwB8R45e-H1vXHISOfYlVfnlwEYWOp7gnY9qmbog==">
                             <div class="input-group">
-                                <input class="form-control form-control-light-skin" type="email" name="EMAIL"
-                                    placeholder="Email address">
+
+
+                                <input type="text" id="subscriber-email" class="form-control form-control-light-skin"
+                                    name="Subscriber[email]" placeholder="Email address" aria-required="true">
+
+                                <div class="help-block"></div>
                                 <div class="input-group-append">
-                                    <button class="btn btn-primary" type="submit">Підписатися</button>
-                                </div>
-                            </div><small class="form-text text-white opacity-50 pt-1 text-center">Ви отримуватимете
-                                Email коли на сайт додається новий проект, або новий товар в магазин</small>
+                                    <button type="submit" class="btn btn-primary"
+                                        href="#modalCenteredSubscrive">Підписатися</button> </div>
+                                <a id="modalCenteredSubscriveButton"
+                                    class="btn btn-gradient ml-3 d-none d-xl-inline-block"
+                                    style="display:none!important" href="#modalCenteredSubscrive"
+                                    data-toggle="modal">Зв'язатися</a>
+                            </div>
+                            <small class="form-text text-white opacity-50 pt-1 text-center">Ви отримуватимете Email коли
+                                на сайт додається новий проект, або новий товар в магазин</small>
                             <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                             <div style="position: absolute; left: -5000px;" aria-hidden="true">
                                 <input type="text" name="b_c7103e2c981361a6639545bd5_1194bb7544" tabindex="-1">
                             </div>
-                        </form>
+                        </form> <!-- <form action="#" method="post" target="_blank" novalidate> -->
+                        <!-- <div class="input-group"> -->
+                        <!-- <input class="form-control form-control-light-skin" type="email" name="EMAIL" placeholder="Email address"> -->
+                        <!-- <div class="input-group-append">
+                            <button class="btn btn-primary" type="submit">Підписатися</button>
+                        </div> -->
+                        <!-- </div> -->
+                        <!-- </form> -->
                     </div>
                 </div>
+
                 <hr class="hr-light">
                 <div class="d-md-flex justify-content-between align-items-center py-4 text-center text-md-left">
-                    <div class="order-2"><a class="footer-link text-white"
-                            href="index.html#">About</a><a class="footer-link text-white ml-3"
-                            href="index.html#">Help &amp; Info</a><a
+                    <div class="order-2"><a class="footer-link text-white" href="index.html#">About</a><a
+                            class="footer-link text-white ml-3" href="index.html#">Help &amp; Info</a><a
                             class="footer-link text-white ml-3" href="index.html#">Privacy Policy</a>
                     </div>
                     <p class="m-0 text-sm text-white order-1"><span class='opacity-60'>© All rights reserved. Made
@@ -883,9 +978,28 @@
                 </div>
             </div>
         </div>
+
+        <div class="modal fade" id="modalCenteredSubscrive" tabindex="-1" role="dialog" style="display: none;"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">ТОВ «ЦКБ «Плазма»</h4>
+                        <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">×</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="message">
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary btn-sm" type="button" data-dismiss="modal">Закрити</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
-    <!-- Back To Top Button--><a class="scroll-to-top-btn" href="index.html#"><i
-            class="fe-icon-chevron-up"></i></a>
+    <!-- Back To Top Button--><a class="scroll-to-top-btn" href="/"><i class="fe-icon-chevron-up"></i></a>
     <!-- Backdrop-->
     <div class="site-backdrop"></div>
     <!-- JavaScript (jQuery) libraries, plugins and custom scripts-->
