@@ -10,6 +10,7 @@
     <lastmod>2020-11-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://plasma.in.ua/"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://plasma.in.ua/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://plasma.in.ua/en"/>
     <image:image>
@@ -60,6 +61,7 @@
     <lastmod>2020-01-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://plasma.in.ua/"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://plasma.in.ua/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://plasma.in.ua/en"/>
     <image:image>
@@ -110,6 +112,7 @@
     <lastmod>2020-01-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://plasma.in.ua/contacts"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://plasma.in.ua/contacts"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://plasma.in.ua/en/contacts"/>
     <image:image>
@@ -124,6 +127,7 @@
     <lastmod>2020-01-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://plasma.in.ua/contacts"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://plasma.in.ua/contacts"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://plasma.in.ua/en/contacts"/>
     <image:image>
@@ -138,6 +142,7 @@
     <lastmod>2020-01-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://plasma.in.ua/projects"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://plasma.in.ua/projects"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://plasma.in.ua/en/projects"/>
     <video:video>
@@ -2366,6 +2371,7 @@
     <lastmod>2020-01-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://plasma.in.ua/projects"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://plasma.in.ua/projects"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://plasma.in.ua/en/projects"/>
     <video:video>
@@ -4596,6 +4602,7 @@
     <lastmod>2020-01-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://plasma.in.ua/projects"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://plasma.in.ua/projects"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://plasma.in.ua/en/projects"/>
     <video:video>
@@ -6824,6 +6831,7 @@
     <lastmod>2020-01-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://plasma.in.ua/projects-accordion"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://plasma.in.ua/projects-accordion"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://plasma.in.ua/en/projects-accordion"/>
     <video:video>
